@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="800"
+   height="600"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="debiancanaima.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="-519.96058"
+     inkscape:cy="447.87826"
+     inkscape:document-units="px"
+     inkscape:current-layer="g4016"
+     showgrid="false"
+     inkscape:window-width="1440"
+     inkscape:window-height="841"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <defs
+     id="defs4">
+    <filter
+       color-interpolation-filters="sRGB"
+       id="filter"
+       height="3"
+       width="3"
+       x="-0.5"
+       y="-0.5">
+      <feGaussianBlur
+         stdDeviation="1.1"
+         id="feGaussianBlur3194" />
+    </filter>
+    <filter
+       y="-0.5"
+       x="-0.5"
+       width="3"
+       height="3"
+       id="filterP"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur4011"
+         stdDeviation="1.1" />
+    </filter>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-452.36218)"
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1" />
+  <g
+     transform="translate(0,-452.36218)"
+     inkscape:label="Chart-Layer: ['Debian:80', 'Canaima:20']"
+     inkscape:groupmode="layer"
+     id="g3199" />
+  <g
+     id="g4016"
+     inkscape:groupmode="layer"
+     inkscape:label="Chart-Layer: ['Debian:98', 'Canaima:2']">
+    <g
+       id="g4048"
+       transform="matrix(2.435646,0,0,2.435646,-341.50434,-430.6938)">
+      <circle
+         cx="300"
+         cy="300"
+         r="100"
+         style="fill:#aaaaaa;stroke:none"
+         id="circle4018"
+         sodipodi:cx="300"
+         sodipodi:cy="300"
+         sodipodi:rx="100"
+         sodipodi:ry="100"
+         d="m 400,300 c 0,55.22847 -44.77153,100 -100,100 -55.22847,0 -100,-44.77153 -100,-100 0,-55.22847 44.77153,-100 100,-100 55.22847,0 100,44.77153 100,100 z" />
+      <path
+         d="m 200.19733,306.27912 -2.99408,0.18837"
+         style="fill:none;stroke:#000000;stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="path4020"
+         inkscape:connector-curvature="0" />
+      <text
+         x="195.2072"
+         y="309.59308"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;text-anchor:end;fill:#000000;font-family:sans-serif;-inkscape-font-specification:Bitstream Charter"
+         id="text4022">Debian</text>
+      <path
+         sodipodi:type="arc"
+         sodipodi:cx="300"
+         sodipodi:cy="300"
+         sodipodi:rx="100"
+         sodipodi:ry="100"
+         sodipodi:start="0"
+         sodipodi:end="6.1575203"
+         style="fill:#f1e8d7;fill-opacity:1;stroke:none"
+         id="path4024"
+         d="m 400,300 c 0,55.22847 -44.77153,100 -100,100 -55.22847,0 -100,-44.77153 -100,-100 0,-55.22847 44.77153,-100 100,-100 50.38242,0 92.8968,37.48142 99.21145,87.46655 L 300,300 z" />
+      <path
+         d="m 399.80266,293.72082 2.99408,-0.18838"
+         style="fill:none;stroke:#000000;stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="path4026"
+         inkscape:connector-curvature="0" />
+      <text
+         x="404.79279"
+         y="296.40686"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;font-family:sans-serif;-inkscape-font-specification:Bitstream Charter"
+         id="text4028">Canaima</text>
+      <path
+         sodipodi:type="arc"
+         sodipodi:cx="300"
+         sodipodi:cy="300"
+         sodipodi:rx="100"
+         sodipodi:ry="100"
+         sodipodi:start="6.1575203"
+         sodipodi:end="6.283184"
+         style="fill:#e8dabd;fill-opacity:1;stroke:none"
+         id="path4030"
+         d="m 399.21145,287.46655 c 0.52518,4.15712 0.78854,8.34315 0.78855,12.53332 L 300,300 z" />
+    </g>
+  </g>
+</svg>

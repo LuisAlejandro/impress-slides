@@ -346,68 +346,82 @@ a:focus {
 }
 
 /*
-    This step has some animated text ...
-*/
-#ing { width: 500px }
-
-/*
     ... so we define display to `inline-block` to enable transforms and
     transition duration to 0.5s ...
 */
-#ing b {
+#ciclo span, #m span {
     display: inline-block;
-    -webkit-transition: 0.5s;
-    -moz-transition:    0.5s;
-    -ms-transition:     0.5s;
-    -o-transition:      0.5s;
-    transition:         0.5s;
+    -webkit-transition: 2s;
+    -moz-transition:    2s;
+    -ms-transition:     2s;
+    -o-transition:      2s;
+    transition:         2s;
 }
 
 /*
     ... and we want 'positioning` word to move up a bit when the step gets
     `present` class ...
 */
-#ing.present .positioning {
+#ciclo.present .up1, #m.present .up1 {
     -webkit-transform: translateY(-10px);
     -moz-transform:    translateY(-10px);
     -ms-transform:     translateY(-10px);
     -o-transform:      translateY(-10px);
     transform:         translateY(-10px);
+    
+    -webkit-transition-delay: 2s;
+    -moz-transition-delay:    2s;
+    -ms-transition-delay:     2s;
+    -o-transition-delay:      2s;
+    transition-delay:         2s;
 }
 
 /*
     ... 'rotating' to rotate a quarter of a second later ...
 */
-#ing.present .rotating {
-    -webkit-transform: rotate(-10deg);
-    -moz-transform:    rotate(-10deg);
-    -ms-transform:     rotate(-10deg);
-    -o-transform:      rotate(-10deg);
-    transform:         rotate(-10deg);
-
-    -webkit-transition-delay: 0.25s;
-    -moz-transition-delay:    0.25s;
-    -ms-transition-delay:     0.25s;
-    -o-transition-delay:      0.25s;
-    transition-delay:         0.25s;
+#ciclo.present .up2, #m.present .up2 {
+    -webkit-transform: translateY(-10px);
+    -moz-transform:    translateY(-10px);
+    -ms-transform:     translateY(-10px);
+    -o-transform:      translateY(-10px);
+    transform:         translateY(-10px);
+    
+    -webkit-transition-delay: 4s;
+    -moz-transition-delay:    4s;
+    -ms-transition-delay:     4s;
+    -o-transition-delay:      4s;
+    transition-delay:         4s;
 }
 
 /*
     ... and 'scaling' to scale down after another quarter of a second.
 */
-#ing.present .scaling {
-    -webkit-transform: scale(0.7);
-    -moz-transform:    scale(0.7);
-    -ms-transform:     scale(0.7);
-    -o-transform:      scale(0.7);
-    transform:         scale(0.7);
-
-    -webkit-transition-delay: 0.5s;
-    -moz-transition-delay:    0.5s;
-    -ms-transition-delay:     0.5s;
-    -o-transition-delay:      0.5s;
-    transition-delay:         0.5s;
+#ciclo.present .up3, #m.present .up3 {
+    -webkit-transform: translateY(-10px);
+    -moz-transform:    translateY(-10px);
+    -ms-transform:     translateY(-10px);
+    -o-transform:      translateY(-10px);
+    transform:         translateY(-10px);
+    
+    -webkit-transition-delay: 6s;
+    -moz-transition-delay:    6s;
+    -ms-transition-delay:     6s;
+    -o-transition-delay:      6s;
+    transition-delay:         6s;
 }
+
+#retos {
+    line-height: 100px;
+}
+
+#retos .masgrande {
+    font-size: 200px;
+}
+
+#retos .grande {
+    font-size: 100px;
+}
+
 
 /*
     The 'imagination' step is again some boring font-sizing.

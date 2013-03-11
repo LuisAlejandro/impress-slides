@@ -22,11 +22,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="-519.96058"
-     inkscape:cy="447.87826"
+     inkscape:zoom="0.9899495"
+     inkscape:cx="373.17858"
+     inkscape:cy="264.99818"
      inkscape:document-units="px"
-     inkscape:current-layer="g4016"
+     inkscape:current-layer="g4048"
      showgrid="false"
      inkscape:window-width="1440"
      inkscape:window-height="841"
@@ -140,6 +140,30 @@
          style="fill:#e8dabd;fill-opacity:1;stroke:none"
          id="path4030"
          d="m 399.21145,287.46655 c 0.52518,4.15712 0.78854,8.34315 0.78855,12.53332 L 300,300 z" />
+      <text
+         xml:space="preserve"
+         style="font-size:16.42274857px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="159.28889"
+         y="325.29266"
+         id="text2996"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan2998"
+           x="159.28889"
+           y="325.29266"
+           style="font-weight:bold;-inkscape-font-specification:Sans Bold">98%</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:16.42274857px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="411.96039"
+         y="284.82022"
+         id="text2996-0"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan2998-8"
+           x="411.96039"
+           y="284.82022"
+           style="font-weight:bold;-inkscape-font-specification:Sans Bold">2%</tspan></text>
     </g>
   </g>
 </svg>

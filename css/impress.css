@@ -414,12 +414,16 @@ a:focus {
     line-height: 100px;
 }
 
-#retos .masgrande {
+.masgrande {
     font-size: 200px;
 }
 
-#retos .grande {
+.grande {
     font-size: 100px;
+}
+
+.normal {
+    font-size: 80px;
 }
 
 

@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title>Canaima Instituciones</title>
+    <meta name="description" content="Descripción del proceso de desarrollo de la Metadistribución Canaima GNU/Linux." />
+    <meta name="author" content="Equipo de Desarrollo de Canaima" />
+
+    <!-- <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" /> -->
+    <link href="css/impress.css" rel="stylesheet" />
+</head>
+
+<body class="impress-not-supported">
+
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress">
+
+    <div id="title" class="step" data-x="0" data-y="-3500">
+        <img src="images/canaima.svg" alt="">
+        <h1>Instituciones</h1>
+        <h2>Potenciando la migración</h2>
+        <h2>a Software Libre en el Estado</h2>
+    </div>
+    
+    <div class="step slide" data-x="1000" data-y="-3500">
+        <h1><strong>Antecedentes</strong></h1>
+        <ul>
+            <li>Generación de un catálogo para instalación y configuración de servicios.</li>
+            <li>Migración de estaciones de trabajo con <strong>Canaima Popular</strong>.</li>
+            <li>Capacitación para la generación de versiones modificadas de Canaima: VIT, PDVSA, CNTI.</li>
+            <li>Casos de Éxito: MPEE, INCES, CNTI.</li>
+        </ul>
+    </div>
+    
+    <div class="step slide" data-x="2000" data-y="-3500">
+        <h1><strong>Situación actual</strong></h1>
+        <ul>
+            <li>Servicios corriendo bajo Debian GNU/Linux.</li>
+            <li>Estaciones de trabajo corriendo: Canaima, Debian, Ubuntu, Windows.</li>
+            <li>Dificultad técnica en la implementación de Servicios y estaciones de trabajo.</li>
+        </ul>
+    </div>
+
+    <div class="step slide" data-x="3500" data-y="-2500">
+        <h1><strong>Necesidades</strong></h1>
+        <ul>
+            <li>Instalación remota y masiva de imágenes de Canaima para escritorios y servidores.</li>
+            <li>Instalación de grupos de aplicaciones clasificados según Oficinas/Gerencias.</li>
+            <li>Instalación y configuración de servicios comunes en los servidores de aplicaciones.</li>
+        </ul>
+    </div>
+
+    <div class="step slide" data-x="2500" data-y="-2500">
+        <h1><strong>Más necesidades</strong></h1>
+        <ul>
+            <li>Configuración de las aplicaciones cliente en función de los servicios disponibles.</li>
+        </ul>
+    </div>
+
+    <div class="step bigtitle" data-x="1000" data-y="-2500" data-scale="5">
+        <p>
+            <h1 style="font-size:2em">Propuesta</h1>
+        </p>
+    </div>
+
+    <div class="step slide" data-x="0" data-y="-1500">
+        <h1><strong>Desarrollo de Tribus</strong></h1>
+        <ul>
+            <li>Tribus será la interfaz web que centralizará el despliegue de Canaima Instituciones.</li>
+            <li>Vendrá preinstalado y configurado en la imagen para Servidores.</li>
+            <li>Interactuará con otras librerías y aplicaciones para automatizar las operaciones.</li>
+        </ul>
+    </div>
+
+    <div class="step slide" data-x="1000" data-y="-1500">
+        <h1><strong>Desarrollo de Tribus</strong></h1>
+        <ul>
+            <li>Podrá ser abierto desde cualquier estación de trabajo, a través de un explorador web, protegido por autenticación simple.</li>
+        </ul>
+    </div>
+    
+    <div class="step slide" data-x="2000" data-y="-1500">
+        <h1><strong>Desarrollo de Imágenes</strong></h1>
+        <ul>
+            <li>Desarrollar una imagen base para la implementación de Canaima Instituciones en Servidores y otra imagen base para el Escritorio.</li>
+            <li>La imagen de Escritorio vendrá embebida en la imagen de Servidores.</li>
+            <li>Se utilizará la metodología de desarrollo de imágenes de Canaima.</li>
+            <li>Se utilizará el instalador de Canaima.</li>
+        </ul>
+    </div>
+
+    <div class="step slide" data-x="2000" data-y="-500" data-rotate="90">
+        <h1><strong>Desarrollo de Imágenes</strong></h1>
+        <ul>
+            <li>El instalador permitirá realizar instalaciones manuales, como alternativa a la automatización provista por Tribus.</li>
+        </ul>
+    </div>
+
+    <div class="step slide" data-x="1000" data-y="-500">
+        <h1><strong>Despliegue de Estaciones</strong></h1>
+        <ul>
+            <li>El operador instalará las imágenes de Escritorio en las estaciones a través de Tribus.</li>
+            <li>El operador podrá especificar una o más direcciones IP a las cuales instalar.</li>
+            <li>En la primera fase (Instalación), Tribus utilizará FAI para el despliegue masivo de las imágenes.</li>
+        </ul>
+    </div>
+
+    <div class="step slide" data-x="1000" data-y="500">
+        <h1><strong>Despliegue de Estaciones</strong></h1>
+        <ul>
+            <li>En la segunda fase (Configuración de Perfiles), Tribus utilizará Fabric para instalar grupos de aplicaciones según Oficina/Gerencia.</li>
+            <li>Los perfiles podrán modificarse o crearse en la interfaz web de Tribus.</li>
+            <li>Los perfiles son listas de paquetes a instalar.</li>
+        </ul>
+    </div>
+
+    <div class="step slide" data-x="1000" data-y="1500">
+        <h1><strong>Despliegue de Servidores</strong></h1>
+        <ul>
+            <li>El operador podrá instalar servidores de la misma forma que se instalan las Estaciones de Trabajo (con la imagen para Servidores).</li>
+            <li>Los perfiles de aplicaciones también estarán disponibles para los servidores.</li>
+        </ul>
+    </div>
+    
+    <div class="step slide" data-x="1000" data-y="2500" data-rotate="-90">
+        <h1><strong>Despliegue de Servicios</strong></h1>
+        <ul>
+            <li>Tribus vendrá con un catálogo de servicios que se podrán instalar y configurar en cualquier estación de trabajo o servidor.</li>
+            <li>Se podrán incorporar nuevos servicios al catálogo a través de la interfaz web.</li>
+            <li>Este catálogo será una automatización del Kit de Servicios.</li>
+        </ul>
+    </div>
+    
+    <div class="step slide" data-x="0" data-y="2500" data-rotate="-90">
+        <h1><strong>Despliegue de Servicios</strong></h1>
+        <ul>
+            <li>Tribus debe conocer como instalar y configurar los servicios en una máquina presente en la red, así como también instalar y configurar los elementos que correspondan en las estaciones de trabajo que se conectarán al servicio.</li>
+            <li>Tribus permitirá añadir/remover cualquier servicio de forma dinámica, masiva y remota.</li>
+        </ul>
+    </div>
+
+    <div class="step bigtitle" data-x="0" data-y="500" data-rotate="-90" data-scale="5">
+        <h1 style="font-size:2em">Planificación</h1>
+    </div>
+
+    <div class="step slide" data-x="-1500" data-y="500" data-rotate="-90" data-scale="2">
+        <ul>
+            <li>Diseño y planificación preliminar.</li>
+            <li>Documentación de procesos iniciales.</li>
+            <li>Captación de colaboradores.</li>
+            <li>Organización del trabajo colaborativo.</li>
+            <li>Ejecución de la planificación.</li>
+            <li>Entrega del producto.</li>
+        </ul>
+    </div>
+
+    <div class="step" data-x="-3500" data-y="500" data-rotate="-90" data-scale="3">
+        <p>
+            <h1 style="font-size:2em">¡Gracias por su atención!</h1>
+            <p>instituciones@canaima.softwarelibre.gob.ve</p>
+            <p>@CanaimaGNULinux</p>
+        </p>
+    </div>
+
+    <div id="overview" class="step" data-x="0" data-y="0" data-scale="10"></div>
+
+</div>
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+</body>
+</html>

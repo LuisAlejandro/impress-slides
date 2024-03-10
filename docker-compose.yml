@@ -1,0 +1,10 @@
+version: "3"
+services:
+  app:
+    image: luisalejandro/impress:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/home/impress/app
+      - ~/Library/Caches/pip:/home/impress/.cache/pip
